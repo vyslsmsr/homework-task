@@ -1,0 +1,188 @@
+.headerbox{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.dashboardContent{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: .9375rem;
+}
+
+.student{
+    background: #F0F9FF;
+    width: 20%;
+    height: 10rem;
+    padding: .9375rem;
+
+}
+.studentIcon {
+    height: 5rem;
+}
+
+.studentIconColor{
+    color: #74C1ED;
+    font-size: 2.5625rem;
+}
+
+.studentIcon p{
+    margin: .625rem 0 0 0;
+    color: #6C6C6C;
+    font-size: .875rem;
+}
+
+.studentCount{    
+    height: 5rem;
+    position: relative;
+}
+
+
+.studentCount label{
+    color: #000;
+    font-weight: 600;
+    font-size: 1.5625rem;
+    position: absolute;
+    right: .625rem;
+    bottom: .625rem;
+    font-size: 2.5rem;
+}
+
+
+.course{
+    background: #FEF6FB;
+    width: 20%;
+    height: 10rem;
+    padding: .9375rem;
+
+}
+.courseIcon {
+    height: 5rem;
+}
+
+.courseIconColor{
+    color: #EE95C5;
+    font-size: 2.5625rem;
+}
+
+.courseIcon p{
+    margin: .625rem 0 0 0;
+    color: #6C6C6C;
+    font-size: .875rem;
+}
+
+.courseCount{    
+    height: 5rem;
+    position: relative;
+}
+
+
+.courseCount label{
+    color: #000;
+    font-weight: 600;
+    font-size: 1.5625rem;
+    position: absolute;
+    right: .625rem;
+    bottom: .625rem;
+    font-size: 2.5rem;
+}
+
+.payments{
+    background: #FEFBEC;
+    width: 20%;
+    height: 10rem;
+    padding: .9375rem;
+
+}
+.paymentsIcon {
+    height: 5rem;
+}
+
+.paymentsIconColor{
+    color: #F6C762;
+    font-size: 2.5625rem;
+}
+
+.paymentsIcon p{
+    margin: .625rem 0 0 0;
+    color: #6C6C6C;
+    font-size: .875rem;
+}
+
+.paymentsCount{    
+    height: 5rem;
+    position: relative;
+}
+
+
+.paymentsCount label{
+    color: #000;
+    font-weight: 600;
+    font-size: 1.5625rem;
+    position: absolute;
+    right: .625rem;
+    bottom: .625rem;
+    font-size: 2.5rem;
+}
+
+
+
+.users{
+    background: linear-gradient(110.42deg, #FEAF00 18.27%, #F8D442 91.84%);
+
+    width: 20%;
+    height: 10rem;
+    padding: .9375rem;
+
+}
+.usersIcon {
+    height: 5rem;
+}
+
+.usersIconColor{
+    color: white;
+    font-size: 2.5625rem;
+}
+
+.usersIcon p{
+    margin: .625rem 0 0 0;
+    color: white;
+    font-size: .875rem;
+}
+
+.usersCount{    
+    height: 5rem;
+    position: relative;
+}
+
+
+.usersCount label{
+    color: #000;
+    font-weight: 600;
+    font-size: 1.5625rem;
+    position: absolute;
+    right: .625rem;
+    bottom: .625rem;
+    font-size: 2.5rem;
+}
+@media (max-width: 900px) {
+    .headerbox{
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+  }
+
+@media (max-width: 600px) {
+    .student, .course, .payments, .users{
+        width: 100%;
+        margin: .625rem 0 0 0;
+    }
+
+    .headerbox{
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+  }

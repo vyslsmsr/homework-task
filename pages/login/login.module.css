@@ -1,0 +1,86 @@
+.loginPage{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(71.17deg, #FEAF00 19.35%, #F8D442 90.12%);
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.loginForm{
+    width: 100%;
+    height: auto;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.formLogin{
+    /* width: 50%; */
+    height: auto;
+    padding: 2.5rem 4.375rem;    
+    border-radius: 1.5625rem;
+    text-align: center;
+    background-color: white;
+}
+
+.titleContent{
+    display: flex;
+    justify-content: center;
+    margin: 0 0 1.875rem 0;
+}
+.title{
+    font-weight: 700;
+    size: 3.4375rem;
+    margin: 0;
+}
+
+.line{
+    height: 2.1875rem;
+    width: .1875rem;
+    background-color: #FEAF00;
+    margin: 0 .9375rem 0 0;
+}
+
+.subTitle{
+    font-weight: 600;
+    font-size: 1.375rem;
+    margin: 1.5625rem 0 0 0;
+    text-transform: uppercase;
+}
+
+.account{
+    color: #6C6C6C;
+    font-size: .875rem;
+}
+
+.formİtem{
+    text-align: start;
+    margin: 1.5625rem 0 0 0;
+}
+
+.labelSub{
+    font-weight: 500;
+    color: #6C6C6C;
+    position: relative;
+    bottom: .625rem;
+}
+
+.btnSubmit{
+    background: #FEAF00;
+    width: 100%;
+    margin: 1.5625rem 0 0 0;
+    color: white;
+    height: 2.75rem;
+    border-radius: .125rem;
+    border: #FEAF00;
+    cursor: pointer;
+}
+.resetPassword p{
+    font-size: .875rem;
+    color: #6C6C6C;
+}
+.resetPassword p a{
+    color: #FEAF00;
+    text-decoration: none;
+}

@@ -1,0 +1,79 @@
+.content{
+    background: #F8F8F8;
+    margin: 1.5625rem 0 0 0;
+    overflow-y: auto;
+    height: 90vh;
+    width: 100%;
+}
+
+.box{
+    width: 100%;
+    height: 9.375rem;
+    background-color: aqua;
+}
+
+
+.title{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 2.6875rem;
+    padding: 0 0 0 1.5625rem;
+    font-weight: 700;
+    font-size: 1.5625rem;
+}
+
+.search{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 2.6875rem;
+}
+
+.addStudent{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 2.6875rem;
+}
+
+.addStudent button{
+    background: #FEAF00;
+
+}
+
+.addStudent button:hover{
+    background: #FEAF00 !important;
+}
+
+.ant-table-wrapper .ant-table-tbody>tr>td{
+    padding: 0 !important;
+}
+
+
+.tableIcon{
+    margin: 0 0 0 .625rem;
+    font-size: 1.1875rem;
+    color: #FEAF00;
+}
+
+.modalTitle{
+    color: #FEAF00 ;
+    font-weight: 600;
+    margin: 0 0 1.25rem 0;
+}
+
+.formGroup{
+    color: black;
+    font-weight: 600;
+    margin: 0 0 .625rem 0;
+}
+
+
+#tableContent tr th{
+    padding: 0 !important;
+}
+
+
+
+

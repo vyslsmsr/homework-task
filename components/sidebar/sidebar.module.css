@@ -1,0 +1,114 @@
+.content{
+    width: 100%;
+    height: 100vh;
+    background: #F2EAE1;
+}
+
+.menu{
+    width: 100%;
+    height: calc(100vh - 450px);
+}
+
+.barTitle{
+    display: flex;
+    height: 6.25rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.barTitle h2{
+    margin: 0;
+    margin: 0 0 0 .625rem;
+}
+
+.line{
+    height: 1.5625rem;
+    width: .3125rem;
+    background-color: #F8D442;
+}
+
+.barImg{
+    text-align: center;
+    margin: 1.875rem 0 0 0;
+}
+
+.menuList{
+ list-style: none;
+ padding: 0;
+ display: grid;
+ justify-content: center;
+}
+
+.menuList li{
+    margin: 1.5rem 0 0 0;
+}
+
+.menuList li a{
+    text-decoration: none;
+    color: #000;
+   font-size: 1.125rem
+}
+
+.name{
+    text-align: center;
+}
+
+.name label{
+    font-weight: 600;
+    font-size: 1.0625rem;
+}
+
+.name p{
+    font-size: .875rem;
+    color: #FEAF00;
+
+}
+
+.icon{
+    margin: 0 .625rem 0 0;
+}
+
+.menuContent{
+    position: relative;
+    height: calc(100% - 18.75rem);
+}
+
+
+
+.barTitle button{
+    display: none;
+}
+
+.active{
+    background-color: red !important;
+    color: white !important;
+    padding: .9375rem;
+}
+
+@media (max-width: 600px) {
+    .content{
+        width: 100%;
+        height: 5.3125rem;
+        background: #F2EAE1;
+        overflow: hidden;
+    }
+
+    .contentActive{
+        width: 100%;
+        height: 100vh;
+        background: #F2EAE1;
+        overflow: hidden;
+    }
+
+    .menuList li{
+        margin: 1rem 0 0 0;
+    }
+
+    .barTitle button{
+        display: block;
+        position: relative;
+        left: 1.25rem;
+    }
+    
+  }
